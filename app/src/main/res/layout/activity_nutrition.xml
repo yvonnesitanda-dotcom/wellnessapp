@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition "
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="fantasy"
+            android:textColor="#F8F8F2"/>
+
+        <!-- 🔹 MACROS OVERVIEW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E3F2FD"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍽️ Daily Nutrition Balance"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0D47A1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Proteins: 30%\n• Carbohydrates: 40%\n• Fats: 30%"
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 PROTEIN CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8F5E9"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥩 Protein Foods"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eggs, chicken, beans, fish, lentils, milk"
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 CARBS CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFF3E0"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍞 Carbohydrates"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#E65100"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rice, bread, potatoes, oats, maize, pasta"
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 FATS CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F3E5F5"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥑 Healthy Fats"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#6A1B9A"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avocado, nuts, olive oil, peanut butter"
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 VITAMINS CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E0F7FA"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍊 Vitamins and Minerals"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#006064"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruits, vegetables, spinach, carrots, oranges"
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 TIP CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFDE7"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Nutrition Tip"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#F57F17"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eat a balanced plate every meal: protein + carbs + vegetables."
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

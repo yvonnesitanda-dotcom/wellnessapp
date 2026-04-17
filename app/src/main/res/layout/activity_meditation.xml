@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeditationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation "
+            android:background="#FF5722"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="fantasy"
+            android:textColor="#0B0B0A"/>
+
+        <!-- 🔹 BREATHING GUIDE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E3F2FD"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🧘 Breathing Exercise"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0D47A1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inhale for 4 seconds\nHold for 4 seconds\nExhale for 6 seconds\nRepeat for 5 minutes"
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 MINDFULNESS CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8F5E9"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌿 Mindfulness"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Focus on the present moment. Observe your thoughts without judgment."
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 STRESS RELIEF CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFF3E0"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😌 Stress Relief"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#E65100"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Close your eyes, relax your body, and release all tension slowly."
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 BENEFITS CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F3E5F5"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✨ Benefits of Meditation"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#6A1B9A"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Reduces stress\n• Improves focus\n• Better sleep\n• Emotional balance"
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <!-- 🔹 DAILY TIP CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E0F7FA"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Daily Meditation Tip"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#006064"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Even 5–10 minutes daily can improve your mental health greatly."
+                android:textColor="#444444"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

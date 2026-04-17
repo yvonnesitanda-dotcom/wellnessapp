@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress "
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="fantasy"
+            android:textColor="#F8F8F6"/>
+        <!-- 🔹 STEPS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Steps"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:padding="12dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressSteps"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progress="0"
+            android:max="100"
+            android:progressTint="#FF9800"
+            android:progressBackgroundTint="#FFE0B2"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/btnAddSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Steps"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"
+            android:layout_margin="12dp"/>
+
+        <!-- 🔹 WATER -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Intake"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:padding="12dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressWater"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progress="0"
+            android:max="100"
+            android:progressTint="#03A9F4"
+            android:progressBackgroundTint="#B3E5FC"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/btnAddWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Water"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_margin="12dp"/>
+
+        <!-- 🔹 WORKOUT -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workout Completion"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:padding="12dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressWorkout"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progress="0"
+            android:max="100"
+            android:progressTint="#4CAF50"
+            android:progressBackgroundTint="#C8E6C9"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/btnAddWorkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Workout"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_margin="12dp"/>
+
+        <!-- 🔹 SLEEP -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sleep Goal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"
+            android:padding="12dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressSleep"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progress="0"
+            android:max="100"
+            android:progressTint="#9C27B0"
+            android:progressBackgroundTint="#E1BEE7"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/btnAddSleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Sleep"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFFFFF"
+            android:layout_margin="12dp"/>
+    </LinearLayout>
+
+</ScrollView>
